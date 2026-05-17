@@ -1,0 +1,25 @@
+version: 2
+
+models:
+  - name: stg_events
+    description: "Cleaned e-commerce events from S3 processed layer"
+    columns:
+      - name: event_id
+        description: "Unique event identifier"
+        tests:
+          - not_null
+          - unique
+      - name: event_type
+        description: "Type of event"
+        tests:
+          - not_null
+          - accepted_values:
+              values:
+                - page_view
+                - add_to_cart
+                - remove_from_cart
+                - purchase
+      - name: user_id
+        description: "User identifier"
+        tests:
+          - not_null
