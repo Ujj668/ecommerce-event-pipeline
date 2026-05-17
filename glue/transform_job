@@ -1,0 +1,4 @@
+SELECT event_type, COUNT(*) as total_events
+FROM ecommerce_db.processed
+GROUP BY event_type
+ORDER BY total_events DESC;
