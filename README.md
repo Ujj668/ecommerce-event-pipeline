@@ -80,7 +80,7 @@ ecommerce-event-pipeline/
 │       └── dbt_project.yml
 └── README.md
 
-**Author**
-Ujjwal Tyagi
-Data Engineer
-GitHub | LinkedIn
+## Author
+**Ujjwal Tyagi**  
+Data Engineer  
+[GitHub](https://github.com/Ujj668) | [LinkedIn](https://www.linkedin.com/in/ujjwal-tyagi-758004148/)
