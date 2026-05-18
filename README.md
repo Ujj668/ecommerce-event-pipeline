@@ -52,8 +52,8 @@ Python Producer → AWS Lambda → S3 (raw/) → AWS Glue → S3 (processed/) �
   - user_id: not_null
 - `dbt docs generate` produces lineage graph showing model dependencies
 
-  ## Dashbord : 
-  https://dbc-cea0aa49-c937.cloud.databricks.com/dashboardsv3/01f15284a7f21bd99e8c2cc50e6e086b/published?o=4242966323867709
+## Dashboard Link: 
+- https://dbc-cea0aa49-c937.cloud.databricks.com/dashboardsv3/01f15284a7f21bd99e8c2cc50e6e086b/published?o=4242966323867709
 
 
 ## Key Learnings
